@@ -12,7 +12,7 @@ function App() {
     if (number % 2 === 0) {
       result = '${number} <b>ไม่</b>เป็นจำนวนเฉพาะ';
     } else {
-      result = '${number} เป็นจำนวนเฉพาะ';
+      result = '${number} เป็นจำนวนเฉพาะ'u;
     }
     setTotal(result);
   };
